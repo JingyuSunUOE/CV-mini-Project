@@ -24,7 +24,7 @@ cd point-prompted-segmentation
 
 The `Point-prompted-Segmentation` folder contains the UI application and guidance for the online version.  
 
-For setup and usage instructions, please refer to [`Point-prompted-Segmentation/README.md`](.Point-prompted-Segmentation/README.md).
+For setup and usage instructions, please refer to [`Point-prompted-Segmentation/README.md`](Point-prompted-Segmentation/README.md).
 
 ## Model Checkpoint
 
