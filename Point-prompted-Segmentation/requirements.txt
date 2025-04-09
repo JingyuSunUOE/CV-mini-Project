@@ -1,0 +1,14 @@
+setuptools
+wheel
+build
+
+gradio==5.24.0
+Pillow==10.4.0
+opencv-python==4.11.0.86
+numpy==1.26.4
+diffusers==0.32.2
+
+# PyTorch
+torch==2.1.0
+torchvision==0.16.0
+torchaudio==2.1.0
