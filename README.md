@@ -28,11 +28,26 @@ For setup and usage instructions, please refer to [`Point-prompted-Segmentation/
 
 ## Model Checkpoint
 
----
+Three versions of the model are available, each with a different **backbone size**. These can be loaded using the following code:
+
+```python
+from segment_anything import sam_model_registry
+
+sam = sam_model_registry["<model_type>"](checkpoint="<path/to/checkpoint>")
+```
+Click the links below to download the checkpoint for each model type:
+
+-  [Download ViT-H (default)](https://example.com/vit_h_checkpoint.pth)
+-  [Download ViT-L](https://example.com/vit_l_checkpoint.pth)
+-  [Download ViT-B](https://example.com/vit_b_checkpoint.pth)
 
 ## Dataset
 
----
+The dataset used in this project is the [Oxford-IIIT Pet Dataset](https://www.robots.ox.ac.uk/~vgg/data/pets/), which contains images and pixel-level annotations for 37 categories of pet breeds.
+
+We also provide our **preprocessed version** of the dataset, which can be downloaded from the following Google Drive link:
+
+🔗 [Download Preprocessed Dataset (Google Drive)](https://drive.google.com/your-preprocessed-data-link)
 
 ## Contributors
 s2102597 and s2091784
