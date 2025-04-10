@@ -92,18 +92,14 @@ For setup and usage instructions, please refer to [`Point-prompted-Segmentation/
 
 ## Model Checkpoint
 
-Three versions of the model are available, each with a different **backbone size**. These can be loaded using the following code:
+There are four models available for download, one for each task. These can be loaded using the following code:
 
-```python
-from segment_anything import sam_model_registry
-
-sam = sam_model_registry["<model_type>"](checkpoint="<path/to/checkpoint>")
-```
 Click the links below to download the checkpoint for each model type:
 
--  [Download ViT-H (default)](https://example.com/vit_h_checkpoint.pth)
--  [Download ViT-L](https://example.com/vit_l_checkpoint.pth)
--  [Download ViT-B](https://example.com/vit_b_checkpoint.pth)
+-  [Task A-Unet](https://example.com/vit_h_checkpoint.pth)
+-  [Task B-MAE_Mask](https://example.com/vit_l_checkpoint.pth)
+-  [Task C-CLIP_Mask](https://example.com/vit_b_checkpoint.pth)
+-  [Task D-Unet_Point](https://example.com/vit_b_checkpoint.pth)
 
 ## Dataset
 
