@@ -1,6 +1,33 @@
 # CV Mini Project: Point-prompted Segmentation
 
----
+## Project Overview
+
+In this project, we implemented and compared several deep learning models for **semantic image segmentation** using the [Oxford-IIIT Pet Dataset](https://www.robots.ox.ac.uk/~vgg/data/pets/).  
+The objective was to accurately segment pet images into three classes: **background**, **cat**, and **dog**.
+
+### Approaches Explored
+
+We explored a variety of model architectures and training strategies:
+
+- **Custom UNet**  
+  A UNet model enhanced with **ResNet-style skip connections**, and attention-based **downsampling** and **upsampling** blocks to improve feature representation.
+  
+![Model Architecture](assets/unet.png)
+
+- **MAE-Seg (Masked Autoencoder Segmentation)**  
+which learns robust features by reconstructing randomly masked image regions. We froze the encoder used a query-based decoder inspired by recent works, introducing learnable mask tokens that interact with image tokens via a Transformer to extract semantic regions.
+
+![Model Architecture](assets/auto2.png)
+- **CLIP-Seg**  
+  a cross-modal model with both image and text encoders. The approach we adopted was by replacing the encoder in the second MAE-based method with CLIP’s image encoder while keeping the decoder structure unchanged.
+
+- **Point-prompted UNet Segmentation**  
+  A UNet-based model that incorporates **user-provided point prompts** (converted into heatmaps) to guide the segmentation process interactively.
+![Model Architecture](assets/unet_r.png)
+
+## Example Results from our models
+
+
 
 ## Installation
 
