@@ -43,18 +43,45 @@ which learns robust features by reconstructing randomly masked image regions. We
 
 ![Image Example](assets/unet_point_example.png)
 
-## Installation
+## 🛠️ Installation Guide
 
-> **Requirements:**  
-> The code requires **Python >= 3.8**, as well as **PyTorch >= 1.7** and **TorchVision >= 0.8**.  
-> Please follow the official [PyTorch installation guide](https://pytorch.org/get-started/locally/) to install both dependencies.  
-> Installing **PyTorch and TorchVision with CUDA support** is *strongly recommended* for optimal performance.
+This project uses a **Docker-based environment** with **CUDA 12.1**, **Python 3.10**, and all necessary dependencies pre-installed for ease of use and reproducibility.
 
-Clone the repository:
+### 🚀 Step-by-Step Installation (Using Docker)
+
+#### 1. Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/point-prompted-segmentation.git
-cd point-prompted-segmentation
+git clone https://github.com/your-username/your-repo-name.git
+cd your-repo-name
+```
+#### 2. Build the Docker image
+Make sure you have Docker and NVIDIA Container Toolkit installed.
+```bash
+docker build -t your-image-name .
+```
+Replace your-image-name with a name you prefer for your Docker image.
+
+#### 3. Run the Docker container
+```bash
+docker run --gpus all -it \
+  --shm-size=64g \
+  --name your-container-name \
+  -v $(pwd):/mto/your/workdir \
+  -v /path/to/your/output:/output \
+  your-image-name
+```
+Replace /path/to/your/output with the directory on your local machine where you want to store outputs.
+
+#### 4. Python Environment
+Inside the container, a Python 3.10 virtual environment is already activated at /opt/venv.
+To verify:
+```bash
+which python
+# Expected: /opt/venv/bin/python
+
+pip list
+# To check installed dependencies
 ```
 
 ## Web Demo for Point-prompted Segmentation
