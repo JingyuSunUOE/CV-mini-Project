@@ -52,7 +52,7 @@ This project uses a **Docker-based environment** with **CUDA 12.1**, **Python 3.
 #### 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/your-repo-name.git
+git clone https://github.com/JingyuSunUOE/CV-mini-Project.git
 cd your-repo-name
 ```
 #### 2. Build the Docker image
