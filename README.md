@@ -57,10 +57,6 @@ git clone https://github.com/yourusername/point-prompted-segmentation.git
 cd point-prompted-segmentation
 ```
 
-## Getting Started
-
----
-
 ## Web Demo for Point-prompted Segmentation
 
 The `Point-prompted-Segmentation` folder contains the UI application and guidance for the online version.  
@@ -89,6 +85,3 @@ The dataset used in this project is the [Oxford-IIIT Pet Dataset](https://www.ro
 We also provide our **preprocessed version** of the dataset, which can be downloaded from the following Google Drive link:
 
 🔗 [Download Preprocessed Dataset (Google Drive)](https://drive.google.com/your-preprocessed-data-link)
-
-## Contributors
-s2102597 and s2091784
