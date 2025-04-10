@@ -96,10 +96,10 @@ There are four models available for download, one for each task. These can be lo
 
 Click the links below to download the checkpoint for each model type:
 
--  [Task A-Unet](https://example.com/vit_h_checkpoint.pth)
--  [Task B-MAE_Mask](https://example.com/vit_l_checkpoint.pth)
--  [Task C-CLIP_Mask](https://example.com/vit_b_checkpoint.pth)
--  [Task D-Unet_Point](https://example.com/vit_b_checkpoint.pth)
+-  [Task A-Unet](https://drive.google.com/file/d/1TzLWVhDlDCgVGdgeEuVT5QapwZiGuV0v/view?usp=sharing)
+-  [Task B-MAE_Mask](https://drive.google.com/file/d/1Tc3lFL0jfD7azcKu9JH96zi7UhTCtgjB/view?usp=sharing))
+-  [Task C-CLIP_Mask](https://drive.google.com/file/d/1CBlXLdvBBYcro857_euqRNwH9FGevU2s/view?usp=sharing)
+-  [Task D-Unet_Point](https://drive.google.com/file/d/1Ay4fRrAwJOhVoijEk4BswEFKQ58gk0-1/view?usp=sharing)
 
 ## Dataset
 
@@ -107,4 +107,4 @@ The dataset used in this project is the [Oxford-IIIT Pet Dataset](https://www.ro
 
 We also provide our **preprocessed version** of the dataset, which can be downloaded from the following Google Drive link:
 
-🔗 [Download Preprocessed Dataset (Google Drive)](https://drive.google.com/your-preprocessed-data-link)
+🔗 [Download Preprocessed Dataset (Google Drive)](https://drive.google.com/file/d/1Narxec5YWPuzLBeXO7NokIP0mZh1ljIH/view?usp=sharing)
