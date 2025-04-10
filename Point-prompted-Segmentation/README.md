@@ -6,4 +6,4 @@
   
 ## Guideline video link for both local and website running app
 
-[Video Guideline](https://www.robots.ox.ac.uk/~vgg/data/pets/)
+[Video Guideline](https://drive.google.com/file/d/16MWHdfoEPL-fNcp0ynydufwymyIR5-TM/view?usp=sharing)
