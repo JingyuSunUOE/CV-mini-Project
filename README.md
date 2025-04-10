@@ -27,7 +27,21 @@ which learns robust features by reconstructing randomly masked image regions. We
 
 ## Example Results from our models
 
+- **UNet**
 
+![Image Example](assets/unet_example.png)
+
+- **MAE-Seg**
+
+![Image Example](assets/MAE.png)
+
+- **CLIP-Seg**
+
+![Image Example](assets/clip.png)
+
+- **Point-prompted UNet Segmentation** 
+
+![Image Example](assets/unet_point_example.png)
 
 ## Installation
 
